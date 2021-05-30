@@ -1,0 +1,142 @@
+
+html{
+	background-image: url("../images/cherryblossoms3.jpg");
+}
+
+body{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 800px;
+	background-color: white;
+	margin: 0 auto; 
+	padding: 0;
+	border: 3px;
+	box-shadow: 0 9px 18px 9px;
+}
+
+h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-image: linear-gradient(pink 25%, white, pink);
+	height: 175px;
+	width: 800px;
+	position: relative;
+}
+
+header img{
+	margin-top: 7px;
+	margin-left: 165px;
+}
+
+header h1{
+	font-size: 300%;
+	font-family: Blippo, fantasy;
+	font-style: italic;
+	margin-right: 15em;
+	bottom: 168px;
+	position: relative;
+	color: #20B2AA; /*light sea green*/
+}
+
+header h6{
+	position: relative;
+	font-size: 150%;
+	color: gray;
+	margin-left: 430px;
+	bottom: 300px;
+}
+
+nav{
+	width: 100%;
+	clear: all;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+#nav_menu ul> li> a{color: #20B2AA;} /*light sea green*/
+
+#nav_menu ul li a.current{color: brown;}
+
+nav a:visited{ 
+    color: white; 
+}
+nav a:hover, a:focus { 
+    color: pink;
+}
+
+nav ul li{
+	float: left;
+	width: 20%;
+	height: 54px;
+	background-color: #FFEFD5; /*papayawhip*/
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	padding-top: 1em;
+}
+nav ul ul {
+	display: none;
+	position: absolute;
+	width: 120px;
+	background-color: #FFEFD5;
+}
+nav ul ul li {
+	float: none;
+	width: 110px;
+	text-align: center;
+	padding: 10px 0;
+}
+nav ul ul li a:link{
+	margin: 0;
+}
+nav ul ul li a{
+	text-align: center;
+	display: block;
+	padding: 10px 2px;
+}
+nav ul li:hover> ul{
+	display: block;
+	clear: both;
+}
+nav ul li:hover, nav ul li:focus{
+	background-color: silver;
+}
+nav ul ul li {
+	float: none;
+	position: relative;
+}
+
+main {
+	position: relative;
+	margin-top: 100px;
+	padding-left: 25px;
+	width: 600px;
+	color: gray;
+}
+
+footer { 
+	position: relative;
+	border-top: 2px silver;
+	margin-top: 15px;
+	padding-top: 75px;
+	padding-right: 65px;
+	padding-bottom: 45px;
+	clear: both;
+	background-image: linear-gradient(pink 25%, white, pink);
+} 
+footer p {
+	font-size: 150%;
+	text-align: center;
+	color: gray;
+}

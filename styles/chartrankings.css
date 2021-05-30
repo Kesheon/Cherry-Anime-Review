@@ -1,0 +1,203 @@
+html{
+	background-image: url("../images/cherryblossoms3.jpg");
+}
+
+body{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 800px;
+	background-color: white;
+	margin: 0 auto; 
+	padding: 0;
+	border: 3px;
+	box-shadow: 0 9px 18px 9px;
+}
+
+h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-image: linear-gradient(pink 25%, white, pink);
+	height: 175px;
+	width: 800px;
+	position: relative;
+}
+
+header img{
+	margin-top: 7px;
+	margin-left: 165px;
+}
+
+header h1{
+	font-size: 300%;
+	font-family: Blippo, fantasy;
+	font-style: italic;
+	margin-right: 15em;
+	bottom: 168px;
+	position: relative;
+	color: #20B2AA; /*light sea green*/
+}
+
+header h6{
+	position: relative;
+	font-size: 150%;
+	color: gray;
+	margin-left: 430px;
+	bottom: 300px;
+}
+
+nav{
+	width: 100%;
+	clear: all;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+#nav_menu ul> li> a{color: #20B2AA;} /*light sea green*/
+
+#nav_menu ul li a.current{color: brown;}
+
+nav a:visited{ 
+    color: white; 
+}
+nav a:hover, a:focus { 
+    color: pink;
+}
+
+nav ul li{
+	float: left;
+	width: 20%;
+	height: 54px;
+	background-color: #FFEFD5; /*papayawhip*/
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	padding-top: 1em;
+}
+nav ul ul {
+	display: none;
+	position: absolute;
+	width: 120px;
+	background-color: #FFEFD5; /*papayawhip*/
+}
+nav ul ul li {
+	float: none;
+	width: 110px;
+	text-align: center;
+	padding: 10px 0;
+}
+nav ul ul li a:link{
+	margin: 0;
+}
+nav ul ul li a{
+	text-align: center;
+	display: block;
+	padding: 10px 2px;
+}
+nav ul li:hover> ul{
+	display: block;
+	clear: both;
+}
+nav ul li:hover, nav ul li:focus{
+	background-color: silver;
+}
+nav ul ul li {
+	float: none;
+	position: relative;
+}
+
+main {
+	padding: 20px 25px 25px 180px;
+	width: 600px;
+}
+
+main > table > caption {
+	font-size: 175%;
+	font-weight: bolder;
+	padding-top: 25px;
+	padding-right: 175px;
+	padding-bottom: 27px;
+	padding-left: 120px;
+	color: gray;
+	width: 296px;
+	position: relative;
+	right: 280px;
+}
+
+#hdr_Anime{
+	position: relative;
+	right: 235px;
+	padding-right: 100px;
+	padding-bottom: 15px;
+	color: gray;
+}
+
+#hdr_Genre{
+	padding-right: 65px;
+	padding-bottom: 15px;
+	color: gray;
+	position: relative;
+	right: 150px;
+}
+
+#hdr_Rating{
+	color: gray;
+	padding-bottom: 15px;
+	padding-left: 86px;
+	position: relative;
+	right: 175px;
+}
+
+#anime_name{ /*props, costumes, special effects, masks*/
+	right: 160px;
+	padding-bottom: 10px;
+	margin-right: 1em;
+	position: relative;
+	float:left;
+	color: gray;
+
+}
+
+#genre_name{ 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+	right: 150px;
+	color: gray;
+}
+
+
+#rating_group{
+	background-color: #FFEFD5; /*papayawhip*/
+	position: relative;
+	float: right;
+	right: 175px;
+	color: gray;
+	clear: both;
+}
+
+footer { 
+	position: relative;
+	border-top: 2px silver;
+	margin-top: 15px;
+	padding-top: 75px;
+	padding-right: 65px;
+	padding-bottom: 45px;
+	clear: both;
+	background-image: linear-gradient(pink 25%, white, pink);
+} 
+footer p {
+	font-size: 150%;
+	text-align: center;
+	color: gray;
+}
